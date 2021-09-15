@@ -7,7 +7,7 @@ public class assignment1 : ProcessingLite.GP21
 
     public float x;
     public float y;
-    public float diameter = 0.2f;
+    public float diameter = 2;
 
     // Start is called before the first frame update
     void Start()
