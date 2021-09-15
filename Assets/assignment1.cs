@@ -7,40 +7,22 @@ public class assignment1 : ProcessingLite.GP21
 
     public float x;
     public float y;
-    public float diameter = 2f;
+    public float diameter = 0.2f;
 
     // Start is called before the first frame update
     void Start()
     {
 
         
-        //  Line(4, 7, 4, 3);
-        //  Line(4, 5, 6, 5);
-        //  Line(6, 7, 6, 3);
-
-        //  Line(8, 5.5f, 8, 3);
-        //  Line(8, 7, 8, 6.8f);
-
 
     }
 
     // Update is called once per frame
     void Update()
-    {
+    
 
-        //   Circle(circlePosition.x, circlePosition.y, diameter);
-        //   LetterR();
-
-        //  void LetterR(float x = 0, float y = 0);
-        //      Stroke(0, 0, 0);
-        
-        //      Line(x + 3, y + 3, x + 3, y + 12);
-        //      Line(x + 3, y + 12, x + 6, y + 9);
-        //      Line(x + 6, y + 9, x + 3, y + 6);
-        //      Line(x + 3, y + 6, x + 6, y + 4);
-
-        
-        //fill(0, 0, 139); ej på circle tills vidare
+{
+       
         Background(255, 140, 0);
         StrokeWeight(2);
 
