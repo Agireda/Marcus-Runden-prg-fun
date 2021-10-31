@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class assignment5 : ProcessingLite.GP21
 {
+    Ball myBall;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Use the new keyword to create our ball object.
+        myBall = new Ball(5, 5);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Background(0);
-
+        myBall.UpdatePos();
+        myBall.Draw();
     }
 }
